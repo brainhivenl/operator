@@ -75,6 +75,8 @@ operator:
   #      pullPolicy: IfNotPresent
   #
   sidecarImage: {}
+  # Automatically install CRD's
+  installCRDs: true
   ###
   #
   # An array of Kubernetes secrets to use for pulling images from a private ``image.repository``.
